@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+
+}
+
+header {
+    background: linear-gradient(to top, rgb(0,0,0,0.5)50%, rgb(0,0,0,0.5)50%), url(food.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100px;
+}
+ul {
+    float: inline-end;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 250px;
+    font-size: 17px; 
+   
+}
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 5px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+    padding: 2px 5px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+ul li.active a {
+    background-color: white;
+    color: black;  
+}
+
+.logo img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 8px solid white;
+    margin-top: 13px;
+    border-radius: 3px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+
+.title h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.button {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.sub-menu {
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul {
+     position: absolute;
+}
+
+.main ul li:hover .sub-menu {
+ display: block;
+ position: relative;
+ background-color: blue;
+ margin-top: 12px;
+ margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul {
+    display: block;
+    margin: px;
+}
+
+.main ul li:hover .sub-menu ul li {
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px white;
+    background: transparent;
+    transition: 0.4 ease;  
+     text-align: left;
+     border-radius: 0px;
+}
+
+
+
+
+
+

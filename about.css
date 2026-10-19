@@ -1,0 +1,33 @@
+.main {
+    background: linear-gradient(to top, rgb(0,0,0,0.5)50%, rgb(0,0,0,0.5)50%), url(food.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    padding: 80px;
+    color: white;    
+    }
+
+.nav {
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 250px;
+    font-size: x-large;
+    
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
